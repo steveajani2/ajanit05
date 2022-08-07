@@ -54,7 +54,7 @@ await Promise.all([
       console.log(`Program has started`)
       return {
         nftid: steveNFT.id,
-        maxnumtickets: parseInt(8),
+        maxnumtickets: parseInt(100),
       }
     },
     question: async () => {
